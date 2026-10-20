@@ -3,6 +3,12 @@
 All notable changes to this theme. The plugin is intentionally small: no build
 step, no runtime dependencies, only CSS tokens plus a few DOM decorations.
 
+## 0.7.0
+
+- Dialogs (settings, login, etc.) are now frosted glass instead of see-through:
+  86% surface + `blur(28px) saturate(1.3)`, light and dark.
+- Fixes page text showing through the settings panel.
+
 ## 0.6.3
 
 - Automation-tasks nav icon scaled to 20 px so it matches the plugins icon.
