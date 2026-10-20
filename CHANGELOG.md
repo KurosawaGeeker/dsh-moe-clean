@@ -3,6 +3,12 @@
 All notable changes to this theme. The plugin is intentionally small: no build
 step, no runtime dependencies, only CSS tokens plus a few DOM decorations.
 
+## 0.10.0
+
+- Popovers/menus (command palette, model dropdown, etc.) get a surface opacity
+  floor: 82% light / 84% dark, keeping their 40px backdrop blur.
+- Fixes page headings showing through the slash-command palette.
+
 ## 0.9.3
 
 - Cooler dark-mode filter for the hover GIF (invert + hue-rotate + saturate),
