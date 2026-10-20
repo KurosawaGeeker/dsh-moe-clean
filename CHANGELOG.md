@@ -3,6 +3,11 @@
 All notable changes to this theme. The plugin is intentionally small: no build
 step, no runtime dependencies, only CSS tokens plus a few DOM decorations.
 
+## 0.7.1
+
+- Dialogs become more translucent: 55% surface + `blur(44px)` (was 86% + 28px).
+- Text behind a dialog stays unreadable; shapes read as a soft wash.
+
 ## 0.7.0
 
 - Dialogs (settings, login, etc.) are now frosted glass instead of see-through:
