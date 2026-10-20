@@ -43,7 +43,7 @@
 
 侧栏字标与图标：
 
-![侧栏图标](docs/0.14.0/icons.png)
+<img src="docs/0.14.0/icons-hd.png" alt="侧栏图标" width="600">
 
 ## 安装
 
