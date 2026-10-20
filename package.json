@@ -34,11 +34,11 @@
   "author": "KurosawaGeeker",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KurosawaGeeker/dsh-moe-clean.git"
+    "url": "git+https://github.com/KurosawaGeeker/dsh-moe-lite.git"
   },
-  "homepage": "https://github.com/KurosawaGeeker/dsh-moe-clean#readme",
+  "homepage": "https://github.com/KurosawaGeeker/dsh-moe-lite#readme",
   "bugs": {
-    "url": "https://github.com/KurosawaGeeker/dsh-moe-clean/issues"
+    "url": "https://github.com/KurosawaGeeker/dsh-moe-lite/issues"
   },
   "dsh": {
     "bundle": {

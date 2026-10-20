@@ -52,7 +52,7 @@
 侧栏「插件」→「添加插件」，填入：
 
 ```text
-github:KurosawaGeeker/dsh-moe-clean
+github:KurosawaGeeker/dsh-moe-lite
 ```
 
 安装后**重启一次 DSH**。
@@ -60,7 +60,7 @@ github:KurosawaGeeker/dsh-moe-clean
 ### CLI（web profile）
 
 ```sh
-dsh plugin --profile web add 'github:KurosawaGeeker/dsh-moe-clean'
+dsh plugin --profile web add 'github:KurosawaGeeker/dsh-moe-lite'
 ```
 
 装完重启 `dsh web`，刷新页面。
@@ -68,7 +68,7 @@ dsh plugin --profile web add 'github:KurosawaGeeker/dsh-moe-clean'
 ### 本地目录 / tarball
 
 ```sh
-git clone https://github.com/KurosawaGeeker/dsh-moe-clean
+git clone https://github.com/KurosawaGeeker/dsh-moe-lite dsh-moe-clean
 dsh plugin --profile desktop add ./dsh-moe-clean
 # 或
 npm pack && dsh plugin --profile desktop add ./dsh-moe-clean-0.14.0.tgz
