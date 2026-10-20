@@ -20,6 +20,11 @@ step, no runtime dependencies, only CSS tokens plus a few DOM decorations.
 - Dialog carries `isolation: isolate`; the artwork is its `::after` at
   `z-index: -1`, which keeps it above the frosted surface and below the content.
 
+## 0.13.0
+
+- Reinstall release: fresh copy in the desktop profile (no symlink) and a
+  version bump to force the client bundle revision to change.
+
 ## 0.12.2
 
 - Rebuild the HARNESS ribbon as pure CSS: a `::after` pseudo-element on the
