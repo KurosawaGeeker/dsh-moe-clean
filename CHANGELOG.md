@@ -28,6 +28,13 @@ step, no runtime dependencies, only CSS tokens plus a few DOM decorations.
 - Dialog carries `isolation: isolate`; the artwork is its `::after` at
   `z-index: -1`, which keeps it above the frosted surface and below the content.
 
+## 0.13.7
+
+- The composer popups (slash / command palette) lose their transparency: inside
+  `[data-composer-overlay]` both the popup card and the shared menu material are
+  painted solid (`#ffffff` light, `#263040` dark), so conversation text no longer
+  ghosts through the rows. Other menus and dialogs keep the frosted glass.
+
 ## 0.13.6
 
 - Ribbon scaled to 1.9x badge width (99px) and rendered with
