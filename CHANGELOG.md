@@ -28,6 +28,14 @@ step, no runtime dependencies, only CSS tokens plus a few DOM decorations.
 - Dialog carries `isolation: isolate`; the artwork is its `::after` at
   `z-index: -1`, which keeps it above the frosted surface and below the content.
 
+## 0.13.8
+
+- Light-mode dialogs stop reading yellow: the frosted surface goes from
+  `rgba(255,255,255,.55)` to a cool milk white `rgba(250,252,255,.72)`, and the
+  backdrop's `saturate(1.35)` drops to `1.15` so the warm backdrop is no longer
+  amplified. Measured surface moves from a neutral #e2e2e2 to a cool #eaebec,
+  sitting just under the dialog's own white cards.
+
 ## 0.13.7
 
 - The composer popups (slash / command palette) lose their transparency: inside
