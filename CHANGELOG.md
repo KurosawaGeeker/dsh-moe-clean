@@ -28,6 +28,11 @@ step, no runtime dependencies, only CSS tokens plus a few DOM decorations.
 - Dialog carries `isolation: isolate`; the artwork is its `::after` at
   `z-index: -1`, which keeps it above the frosted surface and below the content.
 
+## 0.13.6
+
+- Ribbon scaled to 1.9x badge width (99px) and rendered with
+  `-webkit-optimize-contrast` so the HARNESS letters read better.
+
 ## 0.13.4
 
 - Swap the ribbon artwork for the whale-tail variant (246x90); height follows
