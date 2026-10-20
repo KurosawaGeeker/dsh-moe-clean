@@ -13,6 +13,13 @@ step, no runtime dependencies, only CSS tokens plus a few DOM decorations.
 - Dialog carries `isolation: isolate`; the artwork is its `::after` at
   `z-index: -1`, which keeps it above the frosted surface and below the content.
 
+## 0.12.0
+
+- Replace the HARNESS badge in the sidebar wordmark with a hand-drawn lace
+  ribbon + blue bow image; the original rect and letters are hidden, the ribbon
+  is positioned from the badge's own geometry (1.35x width).
+- Brand button opts into `overflow: visible` so the arch is not clipped.
+
 ## 0.11.2
 
 - Keep the static frame hidden while hovering, so the animation is not
