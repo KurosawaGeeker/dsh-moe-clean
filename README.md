@@ -11,11 +11,11 @@
 
 | 亮色 · 新会话 | 暗色 · 新会话 |
 | --- | --- |
-| ![亮色](docs/preview-light.png) | ![暗色](docs/preview-dark.png) |
+| ![亮色](docs/0.13.9/preview-light.png) | ![暗色](docs/0.13.9/preview-dark.png) |
 
 | 设置弹窗 | 完全权限警告 |
 | --- | --- |
-| ![设置](docs/settings.png) | ![完全权限警告](docs/permission.png) |
+| ![设置](docs/0.13.9/settings.png) | ![完全权限警告](docs/0.13.9/permission.png) |
 
 ## 为什么是轻量
 
@@ -43,7 +43,7 @@
 
 侧栏字标与图标：
 
-![侧栏图标](docs/icons.png)
+![侧栏图标](docs/0.13.9/icons.png)
 
 ## 安装
 
@@ -123,7 +123,7 @@ dsh-moe-clean/
 │  ├─ maid-left.webp     # 侧栏底纹
 │  ├─ maid-right.webp    # 右侧立绘
 │  └─ whale.svg          # 左下角鲸鱼水印
-├─ docs/                 # README 截图
+├─ docs/0.13.9/          # README 截图（按版本归档）
 ├─ LICENSE               # MIT（代码）
 ├─ LICENSE-ARTWORK       # CC BY-NC-SA 4.0（美术）
 └─ NOTICE                # 署名链
