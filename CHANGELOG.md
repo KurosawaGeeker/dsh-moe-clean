@@ -3,6 +3,21 @@
 All notable changes to this theme. The plugin is intentionally small: no build
 step, no runtime dependencies, only CSS tokens plus a few DOM decorations.
 
+## 0.8.2
+
+- Packaging: the tarball no longer sweeps the repository's `.git` directory.
+- README asset count / package size corrected.
+
+## 0.8.1
+
+- Dialog chibi background now uses `!important`, so the settings panel's own
+  class rule cannot blank it out.
+
+## 0.8.0
+
+- Add a chibi maid watermark to the bottom-right of dialogs
+  (`maid-chibi.webp`, 52% width, 17% alpha, top/left gradient).
+
 ## 0.7.4
 
 - Dark mode: right maid raised from 50% to 72% opacity with a brightness lift,
