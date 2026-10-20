@@ -3,6 +3,26 @@
 All notable changes to this theme. The plugin is intentionally small: no build
 step, no runtime dependencies, only CSS tokens plus a few DOM decorations.
 
+## 0.14.0
+
+- Transparency audit for every surface that floats over the transcript. The
+  theme had faded tokens that DSH itself treats as solid, so popovers read as
+  clear panels with text showing through.
+- `bg-layer-1/2/3` go to 94–95% (light and dark). Base DSH maps them to solid
+  white; at 72/60/66% every card, input, code banner and detail panel that
+  paints one was a window onto the text behind it.
+- Hover previews (the diff / session peek card) were the worst case: they paint
+  `bg-layer-1` and carry no backdrop blur at all. They now use the shared
+  elevated-surface recipe — `--dsw-specific-menu` plus
+  `--dsw-menu-backdrop-filter` — so the card is opaque-ish glass, not a filter.
+- The menu material goes back to the 94% floor it ships with (was 82%); the
+  40px backdrop blur stays, so menus are still frosted, just not readable
+  through.
+- Dialogs lift to 86% light / 80% dark (was 72% / 55%); 44px of blur cannot
+  rescue a fill that low, and rows behind the panel were still legible as text.
+- The full-access confirm button's disabled state goes from 40% to 80% opacity,
+  so the pointing chibi no longer reads through the label.
+
 ## 0.13.9
 
 - The composer seat is 60% frosted glass. Its native gradient (transparent →

@@ -1,6 +1,6 @@
 # dsh-moe-clean · 鲸鱼娘轻量皮肤
 
-![version](https://img.shields.io/badge/version-0.13.9-2f6bf0?style=flat-square)
+![version](https://img.shields.io/badge/version-0.14.0-2f6bf0?style=flat-square)
 ![platform](https://img.shields.io/badge/DSH-0.2.x-1f2a3a?style=flat-square)
 ![code](https://img.shields.io/badge/code-MIT-2f6bf0?style=flat-square)
 ![artwork](https://img.shields.io/badge/artwork-CC%20BY--NC--SA%204.0-c5a468?style=flat-square)
@@ -9,13 +9,13 @@
 
 ## 界面
 
-| 亮色 · 新会话 | 暗色 · 新会话 |
+| 亮色 · 新会话 | 暗色 · 插件页 |
 | --- | --- |
-| ![亮色](docs/0.13.9/preview-light.png) | ![暗色](docs/0.13.9/preview-dark.png) |
+| ![亮色](docs/0.14.0/preview-light.png) | ![暗色](docs/0.14.0/preview-dark.png) |
 
 | 设置弹窗 | 完全权限警告 |
 | --- | --- |
-| ![设置](docs/0.13.9/settings.png) | ![完全权限警告](docs/0.13.9/permission.png) |
+| ![设置](docs/0.14.0/settings.png) | ![完全权限警告](docs/0.14.0/permission.png) |
 
 ## 为什么是轻量
 
@@ -27,7 +27,7 @@
 ## 特性
 
 - **白 + 蓝**：白色表面、冷蓝灰中性色，全界面只有 DeepSeek 蓝 `#2f6bf0` 一个强调色；
-- **毛玻璃**：只用在侧栏和输入框（`backdrop-filter`），正文区保持通透；设置等弹窗是 72% 冷白 `rgba(250,252,255,.72)` + `blur(44px)` 的乳白磨砂面，不再透出背后的正文；
+- **毛玻璃**：只用在侧栏和输入框（`backdrop-filter`），正文区保持通透；设置等弹窗是 86% 冷白 `rgba(250,252,255,.86)` + `blur(44px)` 的乳白磨砂面，不再透出背后的正文；
 - **右侧鲸鱼娘**：默认 60%、暗色 72% 不透明度，左侧与底部用渐变蒙版淡出，右侧再加一层冷色雾化，压字不挡字；
 - **左侧栏底纹**：另一张女仆立绘铺在侧栏底部，收起成图标栏时自动隐藏；
 - **鲸鱼水印**：左下角一枚 20% 不透明的 DeepSeek 鲸鱼，窄窗口自动隐藏；
@@ -35,15 +35,15 @@
 - **HARNESS 缎带**：顶栏的 HARNESS 徽章替换成手绘风蕾丝缎带 + 蓝蝴蝶结，文字仍可读；
 - **插件图标 hover 动效**：平时显示 GIF 的第一帧（22px 静态图），鼠标移上去才播放摇摆动画，移开回到第一帧；暗色自动反相；
 - **弹窗女仆**：设置/登录等弹窗右下角一枚 40% 透明（烘焙进立绘）的 Q 版女仆，58% 宽，贴着圆角往外压一点、被裁掉少许；蒙版沿左上→右下方向 135° 淡出，不留方形边缘；
-- **完全权限警告**：只有「确认启用完全权限」这个风险弹窗换成另一张会指人的 Q 版女仆——40% 透明、42% 宽，往右下角压得更深（尾巴和鞋被弹窗边缘裁掉），伸出的食指正好落在按钮上方；
-- **弹层不透明度下限**：下拉菜单、popover 统一提到 80% 以上；输入框上方的斜杠 / 命令面板直接改成**实心**（亮 `#ffffff` / 暗 `#263040`），背后的对话正文一点不透；
+- **完全权限警告**：只有「确认启用完全权限」这个风险弹窗换成另一张会指人的 Q 版女仆——40% 透明、42% 宽，往右下角压得更深（尾巴和鞋被弹窗边缘裁掉），伸出的食指正好落在按钮上方；确认按钮的禁用态也从 40% 提到 80%，指人的女仆不会从按钮文字里透出来；
+- **弹层不透明度下限**：下拉菜单、popover 统一提到 94%；输入框上方的斜杠 / 命令面板直接改成**实心**（亮 `#ffffff` / 暗 `#263040`），背后的对话正文一点不透；
 - **输入框底衬**：输入框底部的渐隐换成 60% 毛玻璃 + 20px 模糊（亮 `rgba(255,255,255,.6)` / 暗 `rgba(13,20,31,.6)`），最后一条消息不再从统计条后面透出锐利文字；
 - **自定义图标**：「新会话」换成鲸鱼气泡加号，「插件」换成鲸尾，导航尺寸统一；
 - **亮暗跟随**：不需要手动切换，沿用 DSH 的 `data-ds-dark-theme`。
 
 侧栏字标与图标：
 
-![侧栏图标](docs/0.13.9/icons.png)
+![侧栏图标](docs/0.14.0/icons.png)
 
 ## 安装
 
@@ -71,7 +71,7 @@ dsh plugin --profile web add 'github:KurosawaGeeker/dsh-moe-clean'
 git clone https://github.com/KurosawaGeeker/dsh-moe-clean
 dsh plugin --profile desktop add ./dsh-moe-clean
 # 或
-npm pack && dsh plugin --profile desktop add ./dsh-moe-clean-0.13.9.tgz
+npm pack && dsh plugin --profile desktop add ./dsh-moe-clean-0.14.0.tgz
 ```
 
 > 桌面版由应用管理自己的 `desktop` profile，用 `web` profile 的命令不会装到桌面版里。
@@ -123,7 +123,7 @@ dsh-moe-clean/
 │  ├─ maid-left.webp     # 侧栏底纹
 │  ├─ maid-right.webp    # 右侧立绘
 │  └─ whale.svg          # 左下角鲸鱼水印
-├─ docs/0.13.9/          # README 截图（按版本归档）
+├─ docs/0.14.0/          # README 截图（按版本归档）
 ├─ LICENSE               # MIT（代码）
 ├─ LICENSE-ARTWORK       # CC BY-NC-SA 4.0（美术）
 └─ NOTICE                # 署名链
@@ -143,7 +143,8 @@ dsh-moe-clean/
 - **0.11**：静止态改为 GIF 的首帧，不再用线框 SVG；
 - **0.11.3**：弹窗女仆贴到右下角、允许被圆角裁掉少许，渐隐改成一条 135° 对角蒙版；
 - **0.12**：HARNESS 徽章换成手绘蕾丝缎带 + 蓝蝴蝶结；弹窗女仆提亮并往右下角压得更深；
-- **0.13**：弹窗改成 72% 冷白乳白面，斜杠 / 命令面板改成实心，完全权限警告单独换成会指人的 Q 版女仆，输入框底部加 60% 毛玻璃。
+- **0.13**：弹窗改成 72% 冷白乳白面，斜杠 / 命令面板改成实心，完全权限警告单独换成会指人的 Q 版女仆，输入框底部加 60% 毛玻璃；
+- **0.14**：浮层透明度审计——菜单 / 弹层回到 94%，弹窗提到 86%（暗色 80%），hover 预览卡不再透字；完全权限确认按钮的禁用态提到 80%。
 
 ## 许可与署名
 
