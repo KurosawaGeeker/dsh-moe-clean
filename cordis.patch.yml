@@ -1,0 +1,4 @@
+# dsh-moe-clean bundle patch — adds the client-only theme entry to the roster.
+- insert:
+    - id: ui-moe-clean
+      name: dsh-moe-clean

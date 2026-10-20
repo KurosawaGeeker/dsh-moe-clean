@@ -1,0 +1,52 @@
+{
+  "name": "dsh-moe-clean",
+  "version": "0.6.3",
+  "description": "Lightweight blue-white glass theme for DeepSeek Harness: muted whale-maid artwork, frosted panels, custom new-session and plugin icons.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "assets",
+    "cordis.patch.yml",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE",
+    "NOTICE",
+    "LICENSE-ARTWORK"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "theme",
+    "skin",
+    "glassmorphism",
+    "whale",
+    "light-theme",
+    "css"
+  ],
+  "license": "SEE LICENSE IN LICENSE",
+  "author": "KurosawaGeeker",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KurosawaGeeker/dsh-moe-clean.git"
+  },
+  "homepage": "https://github.com/KurosawaGeeker/dsh-moe-clean#readme",
+  "bugs": {
+    "url": "https://github.com/KurosawaGeeker/dsh-moe-clean/issues"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web"
+    }
+  }
+}

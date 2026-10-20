@@ -1,0 +1,29 @@
+# NOTICE
+
+dsh-moe-clean bundles artwork from the DSH whale-girl community. The source
+code is MIT-licensed; the images under `assets/` are **not** MIT and must keep
+the attribution chain below.
+
+## Artwork attribution chain
+
+1. **一创 · 上善** — original whale-girl character design
+   - Pixiv: https://www.pixiv.net/users/62155430
+   - Bilibili: https://b23.tv/8h5L4xz
+2. **二创 · ZipZipPipe** — maid whale-girl redesign with DeepSeek elements
+   - Pixiv: https://www.pixiv.net/users/18604994
+   - Bilibili: https://b23.tv/Pnw6nG8
+3. **三创 · Small-tailqwq** — artwork curation in
+   [dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale)
+   (`maid-atelier`)
+
+## Icons and marks
+
+- `whale.svg` — DeepSeek whale mark, used as a low-opacity watermark;
+- new-session and plugin icons — reworked by the repository author from
+  DeepSeek elements and the author's own SVG sources.
+
+## Terms
+
+`assets/maid-left.webp` and `assets/maid-right.webp` are distributed under
+**CC BY-NC-SA 4.0**: attribution required, **non-commercial use only**, and
+derivatives must be shared under the same license. See `LICENSE-ARTWORK`.
