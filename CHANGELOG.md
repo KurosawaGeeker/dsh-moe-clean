@@ -3,6 +3,15 @@
 All notable changes to this theme. The plugin is intentionally small: no build
 step, no runtime dependencies, only CSS tokens plus a few DOM decorations.
 
+## 0.13.9
+
+- The composer seat is 60% frosted glass. Its native gradient (transparent →
+  full `bg-base` at 36px, no blur) is replaced by a masked pane on
+  `[data-composer-seat]::before`: the same 36px fade-in, `rgba(255,255,255,.6)`
+  in light and `rgba(13,20,31,.6)` in dark, plus a 20px backdrop blur that rides
+  the mask with it. The seat is isolated and painted transparent so the pane
+  sits under the composer card and the stats strip instead of over them.
+
 ## 0.13.5
 
 - Scope fix: the pointing chibi belongs to the "enable full access" warning only.
