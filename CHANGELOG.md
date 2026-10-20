@@ -3,6 +3,12 @@
 All notable changes to this theme. The plugin is intentionally small: no build
 step, no runtime dependencies, only CSS tokens plus a few DOM decorations.
 
+## 0.7.2
+
+- Sidebar brand wordmark (whale + "deepseek" + HARNESS badge) recoloured to
+  DeepSeek blue `#2f6bf0`; dark mode uses `#7aa7ff`.
+- Badge text keeps the inverted token, so it stays legible on blue.
+
 ## 0.7.1
 
 - Dialogs become more translucent: 55% surface + `blur(44px)` (was 86% + 28px).
