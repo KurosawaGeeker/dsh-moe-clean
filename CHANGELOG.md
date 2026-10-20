@@ -13,6 +13,12 @@ step, no runtime dependencies, only CSS tokens plus a few DOM decorations.
 - Dialog carries `isolation: isolate`; the artwork is its `::after` at
   `z-index: -1`, which keeps it above the frosted surface and below the content.
 
+## 0.12.2
+
+- Rebuild the HARNESS ribbon as pure CSS: a `::after` pseudo-element on the
+  brand button plus attribute selectors hiding the old rect/letters.
+- No JS timing or DOM-query dependency left for this decoration.
+
 ## 0.12.0
 
 - Replace the HARNESS badge in the sidebar wordmark with a hand-drawn lace
