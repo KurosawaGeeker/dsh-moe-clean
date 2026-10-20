@@ -3,6 +3,10 @@
 All notable changes to this theme. The plugin is intentionally small: no build
 step, no runtime dependencies, only CSS tokens plus a few DOM decorations.
 
+## 0.7.3
+
+- Dark-mode brand wordmark brightened from `#7aa7ff` to `#9cc2ff`.
+
 ## 0.7.2
 
 - Sidebar brand wordmark (whale + "deepseek" + HARNESS badge) recoloured to

@@ -1,6 +1,6 @@
 {
   "name": "dsh-moe-clean",
-  "version": "0.7.2",
+  "version": "0.7.3",
   "description": "Lightweight blue-white glass theme for DeepSeek Harness: muted whale-maid artwork, frosted panels, custom new-session and plugin icons.",
   "type": "module",
   "main": "lib/index.js",
