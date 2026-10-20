@@ -3,6 +3,14 @@
 All notable changes to this theme. The plugin is intentionally small: no build
 step, no runtime dependencies, only CSS tokens plus a few DOM decorations.
 
+## 0.13.5
+
+- Scope fix: the pointing chibi belongs to the "enable full access" warning only.
+  It is keyed on that dialog's own `aria-label` (`完全权限` / `Full access`);
+  every other dialog goes back to the seated maid (`maid-chibi.webp`, 58%, 17%).
+- Both keep the shared corner treatment: the box overhangs the rounded edge and
+  the panel trims it, plus the 135° top-left → bottom-right mask.
+
 ## 0.12.3
 
 - Dialog chibi is brighter (baked alpha 0.26 → 0.40) and is pushed further into
