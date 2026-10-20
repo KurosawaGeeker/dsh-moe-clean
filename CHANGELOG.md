@@ -3,6 +3,20 @@
 All notable changes to this theme. The plugin is intentionally small: no build
 step, no runtime dependencies, only CSS tokens plus a few DOM decorations.
 
+## 0.11.2
+
+- Keep the static frame hidden while hovering, so the animation is not
+  composited over an identical still frame.
+
+## 0.11.1
+
+- Static icon fixed at 22 px, matching the previous visual size.
+
+## 0.11.0
+
+- The plugins icon now uses the GIF's first frame as its static state instead of
+  the line-art SVG; hovering swaps in the animated GIF.
+
 ## 0.10.0
 
 - Popovers/menus (command palette, model dropdown, etc.) get a surface opacity
