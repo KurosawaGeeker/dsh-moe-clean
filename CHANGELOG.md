@@ -20,6 +20,14 @@ step, no runtime dependencies, only CSS tokens plus a few DOM decorations.
 - Dialog carries `isolation: isolate`; the artwork is its `::after` at
   `z-index: -1`, which keeps it above the frosted surface and below the content.
 
+## 0.13.1
+
+- Key the brand colour, badge hiding and ribbon on the wordmark SVG
+  (`viewBox="26 0 156 24"`) instead of `button[class*="brand"]`; the desktop
+  shell's brand wrapper does not carry that class.
+- Ribbon geometry is derived from the SVG viewBox, so it scales with the
+  wordmark and no longer needs the badge element to be measurable.
+
 ## 0.13.0
 
 - Reinstall release: fresh copy in the desktop profile (no symlink) and a
