@@ -3,6 +3,13 @@
 All notable changes to this theme. The plugin is intentionally small: no build
 step, no runtime dependencies, only CSS tokens plus a few DOM decorations.
 
+## 0.12.3
+
+- Dialog chibi is brighter (baked alpha 0.26 → 0.40) and is pushed further into
+  the bottom-right corner (`right: -9.3%`, `bottom: -7.4%`), so the panel's own
+  `overflow: hidden` trims her tail and shoes and her raised finger lands above
+  the dialog's buttons instead of beside them.
+
 ## 0.11.3
 
 - Dialog chibi moved from a 12 px-inset watermark to a corner illustration: her
