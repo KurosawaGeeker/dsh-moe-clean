@@ -22,7 +22,7 @@ step, no runtime dependencies, only CSS tokens plus a few DOM decorations.
   rescue a fill that low, and rows behind the panel were still legible as text.
 - The full-access confirm button's disabled state goes from 40% to 80% opacity,
   so the pointing chibi no longer reads through the label.
-- The HARNESS ribbon tucks 5px closer to the wordmark, closing the gap left by
+- The HARNESS ribbon tucks 8px closer to the wordmark, closing the gap left by
   the original badge slot.
 
 ## 0.13.9
