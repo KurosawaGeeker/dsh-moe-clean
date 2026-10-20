@@ -3,6 +3,16 @@
 All notable changes to this theme. The plugin is intentionally small: no build
 step, no runtime dependencies, only CSS tokens plus a few DOM decorations.
 
+## 0.11.3
+
+- Dialog chibi moved from a 12 px-inset watermark to a corner illustration: her
+  box overhangs the panel's bottom-right edge, so the rounded trim clips her a
+  little.
+- The fade is now one 135° mask (top-left → bottom-right) on the artwork itself
+  instead of no mask at all, so she dissolves into the glass on the diagonal.
+- Dialog carries `isolation: isolate`; the artwork is its `::after` at
+  `z-index: -1`, which keeps it above the frosted surface and below the content.
+
 ## 0.11.2
 
 - Keep the static frame hidden while hovering, so the animation is not
