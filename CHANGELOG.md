@@ -3,6 +3,25 @@
 All notable changes to this theme. The plugin is intentionally small: no build
 step, no runtime dependencies, only CSS tokens plus a few DOM decorations.
 
+## 0.9.3
+
+- Cooler dark-mode filter for the hover GIF (invert + hue-rotate + saturate),
+  so the cream invert does not clash with the blue theme.
+
+## 0.9.2
+
+- Serve `.gif` with `image/gif`; the hover animation now actually plays.
+
+## 0.9.1
+
+- GIF MIME type added to the host asset route.
+
+## 0.9.0
+
+- Hover-to-play wiggle GIF for the plugins icon; static SVG stays by default.
+- GIF is inserted on `pointerenter` and removed on `pointerleave`, so it always
+  restarts from the first frame.
+
 ## 0.8.2
 
 - Packaging: the tarball no longer sweeps the repository's `.git` directory.
