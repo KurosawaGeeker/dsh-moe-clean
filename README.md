@@ -1,6 +1,6 @@
 # dsh-moe-clean · 鲸鱼娘轻量皮肤
 
-![version](https://img.shields.io/badge/version-0.15.2-2f6bf0?style=flat-square)
+![version](https://img.shields.io/badge/version-0.15.3-2f6bf0?style=flat-square)
 ![platform](https://img.shields.io/badge/DSH-0.2.x-1f2a3a?style=flat-square)
 ![code](https://img.shields.io/badge/code-MIT-2f6bf0?style=flat-square)
 ![artwork](https://img.shields.io/badge/artwork-CC%20BY--NC--SA%204.0-c5a468?style=flat-square)
@@ -35,6 +35,7 @@
 - **白 + 蓝**：白色表面、冷蓝灰中性色，全界面只有 DeepSeek 蓝 `#2f6bf0` 一个强调色；
 - **毛玻璃**：只用在侧栏和输入框（`backdrop-filter`），正文区保持通透；设置等弹窗是 86% 冷白 `rgba(250,252,255,.86)` + `blur(44px)` 的乳白磨砂面，不再透出背后的正文；
 - **右侧鲸鱼娘**：默认 60%、暗色 72% 不透明度，左侧与底部用渐变蒙版淡出，右侧再加一层冷色雾化，压字不挡字；
+- **插件页彩蛋**：只有「设置 → 插件」页把右侧立绘换成举着「禁止鲸尾」牌子的 Q 版女仆（72%、暗色 80%），按页面标题自动识别，其它页面仍用原立绘；同页开关改为实心蓝灰轨道 + 阴影滑块，未选中态不再融进白底；
 - **左侧栏底纹**：另一张女仆立绘铺在侧栏底部，收起成图标栏时自动隐藏；
 - **鲸鱼水印**：左下角一枚 20% 不透明的 DeepSeek 鲸鱼，窄窗口自动隐藏；
 - **堆叠字标**：顶栏整块锁屏换成一张手绘双层蕾丝缎带 SVG——deepseek 在上、HARNESS 在下，两侧各一个蓝蝴蝶结，最下方居中放官方 DeepSeek 鲸鱼 logo；
@@ -85,7 +86,7 @@ npm install dsh-moe-clean
 git clone https://github.com/KurosawaGeeker/dsh-moe-lite dsh-moe-clean
 dsh plugin --profile desktop add ./dsh-moe-clean
 # 或
-npm pack && dsh plugin --profile desktop add ./dsh-moe-clean-0.15.2.tgz
+npm pack && dsh plugin --profile desktop add ./dsh-moe-clean-0.15.3.tgz
 ```
 
 > 桌面版由应用管理自己的 `desktop` profile，用 `web` profile 的命令不会装到桌面版里。
@@ -136,6 +137,7 @@ dsh-moe-clean/
 ├─ assets/
 │  ├─ maid-left.webp     # 侧栏底纹
 │  ├─ maid-right.webp    # 右侧立绘
+│  ├─ maid-plugins.webp  # 插件页限定的「禁止鲸尾」Q 版立绘
 │  ├─ whale.svg          # 左下角鲸鱼水印
 │  └─ deepseek-harness-maid-stacked.svg  # 顶栏堆叠字标
 ├─ docs/0.15.2/          # README 截图（按版本归档）
@@ -163,6 +165,7 @@ dsh-moe-clean/
 - **0.15**：顶栏换成 deepseek + HARNESS 双层蕾丝缎带字标，原来的鲸鱼 + 字标 + 徽章组合与 `harness-banner.webp` 一并移除；
 - **0.15.1**：字标与「新会话」按钮中轴线对齐，品牌行固定 80px，旧字标连同鲸鱼一起彻底隐藏；
 - **0.15.2**：字标最下方加入官方 DeepSeek 鲸鱼 logo，居中放在两个蝴蝶结之间。
+- **0.15.3**：插件页换成「禁止鲸尾」Q 版立绘（其它页面不变），插件页开关与卡片悬停底色加实。
 
 ## 许可与署名
 

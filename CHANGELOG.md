@@ -3,6 +3,22 @@
 All notable changes to this theme. The plugin is intentionally small: no build
 step, no runtime dependencies, only CSS tokens plus a few DOM decorations.
 
+## 0.15.3
+
+- The settings Plugins page now trades the standing maid for the chibi holding a
+  "no whale tail" sign (`assets/maid-plugins.webp`, cut out from the supplied
+  white-background art). Every other view keeps `maid-right.webp`; the page is
+  recognized by its visible `插件` / `Plugins` heading, so no route or hashed
+  class name is involved.
+- The new artwork is capped at 600px wide (38vw on narrow windows), sits at the
+  bottom-right corner, and fades out along its left edge so it cannot fight the
+  rows; dark mode lifts it to 80%.
+- Plugins page switches no longer dissolve into the white page: the unselected
+  track is a real blue-gray with an inset edge, the thumb casts a shadow, and
+  the checked state stays on the brand blue. Disabled switches keep their dimmed
+  state.
+- Plugin card and icon-button hover fills were raised to a visible blue tint.
+
 ## 0.15.2
 
 - The crest now carries the official DeepSeek whale at its base, centered between
