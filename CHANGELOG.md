@@ -19,6 +19,9 @@ step, no runtime dependencies, only CSS tokens plus a few DOM decorations.
   frame's right at 55% light / 65% dark, with the composer allowed to cover it;
   the full-page copy is hidden on that page. The artwork URL carries a version
   query so the cached blurred variant is replaced.
+- The hero composer seat's frosted pane is disabled on the empty state, so the
+  background art reads sharp instead of a blur; the input card still covers her
+  lower body.
 
 ## 0.15.1
 

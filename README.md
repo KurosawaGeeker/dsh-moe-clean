@@ -11,7 +11,7 @@
 
 | 亮色 · 新会话 | 暗色 · 插件页 |
 | --- | --- |
-| ![亮色](docs/0.15.2/preview-light-maid.png) | ![暗色](docs/0.15.2/preview-dark.png) |
+| ![亮色](docs/0.15.2/preview-light-maid-sharp.png) | ![暗色](docs/0.15.2/preview-dark.png) |
 
 | 设置弹窗 | 完全权限警告 |
 | --- | --- |
