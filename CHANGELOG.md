@@ -25,6 +25,8 @@ step, no runtime dependencies, only CSS tokens plus a few DOM decorations.
 - Both crest instances (sidebar and hero) sit at 80% opacity.
 - The dialog chibi's mask is now a short 135° fade that only covers the top-left
   corner, so her hand on the wrench and the pointing finger stay readable.
+- Add a 53-second silent demo video with a stock-DSH vs dsh-moe-clean comparison
+  at `docs/0.15.2/dsh-moe-clean-demo.mp4`.
 
 ## 0.15.1
 

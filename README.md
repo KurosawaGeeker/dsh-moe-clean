@@ -17,6 +17,12 @@
 | --- | --- |
 | ![设置](https://raw.githubusercontent.com/KurosawaGeeker/dsh-moe-lite/main/docs/0.15.2/settings-chibi.png) | ![完全权限警告](https://raw.githubusercontent.com/KurosawaGeeker/dsh-moe-lite/main/docs/0.15.2/permission-chibi.png) |
 
+## 演示视频
+
+[![演示视频](https://raw.githubusercontent.com/KurosawaGeeker/dsh-moe-lite/main/docs/0.15.2/demo-poster.png)](https://github.com/KurosawaGeeker/dsh-moe-lite/blob/main/docs/0.15.2/dsh-moe-clean-demo.mp4)
+
+无配乐，53 秒：先看原版 DSH，再看换上鲸鱼娘皮肤后的同一套界面，最后是同界面左右对比。
+
 ## 为什么是轻量
 
 - **无构建、无运行时依赖**：装完即用，不需要 node_modules 里的第三方库；
