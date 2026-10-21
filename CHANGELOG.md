@@ -15,6 +15,10 @@ step, no runtime dependencies, only CSS tokens plus a few DOM decorations.
   touched.
 - The empty state now repeats the crest above `探索未至之境`, centered on the
   title axis; the sidebar crest is unchanged.
+- The background artwork gets its own empty-state layer: it sits at the hero
+  frame's right at 55% light / 65% dark, with the composer allowed to cover it;
+  the full-page copy is hidden on that page. The artwork URL carries a version
+  query so the cached blurred variant is replaced.
 
 ## 0.15.1
 
