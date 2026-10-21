@@ -10,6 +10,9 @@ step, no runtime dependencies, only CSS tokens plus a few DOM decorations.
   band below `HARNESS` instead of overlapping the ribbon.
 - The crest image URL carries a version query so a refreshed SVG replaces the
   cached one without a hard reload.
+- The over-broad logo-row hide was reverted; the empty-state headline's whale
+  hitbox is now hidden on its own, so the title stays and the crest is never
+  touched.
 
 ## 0.15.1
 
