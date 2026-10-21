@@ -3,6 +3,16 @@
 All notable changes to this theme. The plugin is intentionally small: no build
 step, no runtime dependencies, only CSS tokens plus a few DOM decorations.
 
+## 0.15.0
+
+- The top-left lockup is now one stacked crest: `deepseek` rides the upper lace
+  band, `HARNESS` the lower one, with a maid bow on each side. It replaces the
+  whale + wordmark + HARNESS badge overlay as a single SVG
+  (`assets/deepseek-harness-maid-stacked.svg`).
+- The crest is sized at 64px tall and keeps the original brand button as its
+  click target; the old `harness-banner.webp` and its badge-positioning code are
+  gone.
+
 ## 0.14.0
 
 - Transparency audit for every surface that floats over the transcript. The

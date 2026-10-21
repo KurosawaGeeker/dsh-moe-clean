@@ -1,6 +1,6 @@
 # dsh-moe-clean · 鲸鱼娘轻量皮肤
 
-![version](https://img.shields.io/badge/version-0.14.0-2f6bf0?style=flat-square)
+![version](https://img.shields.io/badge/version-0.15.0-2f6bf0?style=flat-square)
 ![platform](https://img.shields.io/badge/DSH-0.2.x-1f2a3a?style=flat-square)
 ![code](https://img.shields.io/badge/code-MIT-2f6bf0?style=flat-square)
 ![artwork](https://img.shields.io/badge/artwork-CC%20BY--NC--SA%204.0-c5a468?style=flat-square)
@@ -11,16 +11,16 @@
 
 | 亮色 · 新会话 | 暗色 · 插件页 |
 | --- | --- |
-| ![亮色](docs/0.14.0/preview-light.png) | ![暗色](docs/0.14.0/preview-dark.png) |
+| ![亮色](docs/0.15.0/preview-light.png) | ![暗色](docs/0.15.0/preview-dark.png) |
 
 | 设置弹窗 | 完全权限警告 |
 | --- | --- |
-| ![设置](docs/0.14.0/settings.png) | ![完全权限警告](docs/0.14.0/permission.png) |
+| ![设置](docs/0.15.0/settings.png) | ![完全权限警告](docs/0.15.0/permission.png) |
 
 ## 为什么是轻量
 
 - **无构建、无运行时依赖**：装完即用，不需要 node_modules 里的第三方库；
-- **只有 8 个静态资源**：左右两张立绘、两张 Q 版女仆（弹窗底纹 / 完全权限警告）、鲸鱼水印、hover 动图及其首帧、HARNESS 缎带；
+- **只有 8 个静态资源**：左右两张立绘、两张 Q 版女仆（弹窗底纹 / 完全权限警告）、鲸鱼水印、hover 动图及其首帧、堆叠字标 SVG；
 - **纯外观**：CSS 设计令牌 + 少量 DOM 装饰，宿主侧只注册一个只读资源路由；
 - **可完整还原**：卸载插件后原生图标、背景和尺寸都会回到原样。
 
@@ -31,8 +31,8 @@
 - **右侧鲸鱼娘**：默认 60%、暗色 72% 不透明度，左侧与底部用渐变蒙版淡出，右侧再加一层冷色雾化，压字不挡字；
 - **左侧栏底纹**：另一张女仆立绘铺在侧栏底部，收起成图标栏时自动隐藏；
 - **鲸鱼水印**：左下角一枚 20% 不透明的 DeepSeek 鲸鱼，窄窗口自动隐藏；
-- **蓝色字标**：顶栏的 deepseek 鲸鱼与 HARNESS 徽章统一成 DeepSeek 蓝，暗色自动切更亮的浅蓝 `#9cc2ff`；
-- **HARNESS 缎带**：顶栏的 HARNESS 徽章替换成手绘风蕾丝缎带 + 蓝蝴蝶结，文字仍可读；
+- **堆叠字标**：顶栏整块锁屏换成一张手绘双层蕾丝缎带 SVG——deepseek 在上、HARNESS 在下，两侧各一个蓝蝴蝶结；
+- **蓝色字标**：缎带上的 deepseek 仍是 DeepSeek 蓝，HARNESS 用深墨色；暗色下靠白色缎带保持对比；
 - **插件图标 hover 动效**：平时显示 GIF 的第一帧（22px 静态图），鼠标移上去才播放摇摆动画，移开回到第一帧；暗色自动反相；
 - **弹窗女仆**：设置/登录等弹窗右下角一枚 40% 透明（烘焙进立绘）的 Q 版女仆，58% 宽，贴着圆角往外压一点、被裁掉少许；蒙版沿左上→右下方向 135° 淡出，不留方形边缘；
 - **完全权限警告**：只有「确认启用完全权限」这个风险弹窗换成另一张会指人的 Q 版女仆——40% 透明、42% 宽，往右下角压得更深（尾巴和鞋被弹窗边缘裁掉），伸出的食指正好落在按钮上方；确认按钮的禁用态也从 40% 提到 80%，指人的女仆不会从按钮文字里透出来；
@@ -43,7 +43,7 @@
 
 侧栏字标与图标：
 
-<img src="docs/0.14.0/icons-hd-8.png" alt="侧栏图标" width="600">
+<img src="docs/0.15.0/icons-hd.png" alt="侧栏图标" width="600">
 
 ## 安装
 
@@ -71,7 +71,7 @@ dsh plugin --profile web add 'github:KurosawaGeeker/dsh-moe-lite'
 git clone https://github.com/KurosawaGeeker/dsh-moe-lite dsh-moe-clean
 dsh plugin --profile desktop add ./dsh-moe-clean
 # 或
-npm pack && dsh plugin --profile desktop add ./dsh-moe-clean-0.14.0.tgz
+npm pack && dsh plugin --profile desktop add ./dsh-moe-clean-0.15.0.tgz
 ```
 
 > 桌面版由应用管理自己的 `desktop` profile，用 `web` profile 的命令不会装到桌面版里。
@@ -122,14 +122,15 @@ dsh-moe-clean/
 ├─ assets/
 │  ├─ maid-left.webp     # 侧栏底纹
 │  ├─ maid-right.webp    # 右侧立绘
-│  └─ whale.svg          # 左下角鲸鱼水印
-├─ docs/0.14.0/          # README 截图（按版本归档）
+│  ├─ whale.svg          # 左下角鲸鱼水印
+│  └─ deepseek-harness-maid-stacked.svg  # 顶栏堆叠字标
+├─ docs/0.15.0/          # README 截图（按版本归档）
 ├─ LICENSE               # MIT（代码）
 ├─ LICENSE-ARTWORK       # CC BY-NC-SA 4.0（美术）
 └─ NOTICE                # 署名链
 ```
 
-## 从 0.1 到 0.13
+## 从 0.1 到 0.15
 
 - **0.1**：暖米色极简主题，去掉原版皮肤的巴洛克装饰；
 - **0.2**：加入毛玻璃和右侧立绘，立绘 60% 渐隐；
@@ -144,7 +145,8 @@ dsh-moe-clean/
 - **0.11.3**：弹窗女仆贴到右下角、允许被圆角裁掉少许，渐隐改成一条 135° 对角蒙版；
 - **0.12**：HARNESS 徽章换成手绘蕾丝缎带 + 蓝蝴蝶结；弹窗女仆提亮并往右下角压得更深；
 - **0.13**：弹窗改成 72% 冷白乳白面，斜杠 / 命令面板改成实心，完全权限警告单独换成会指人的 Q 版女仆，输入框底部加 60% 毛玻璃；
-- **0.14**：浮层透明度审计——菜单 / 弹层回到 94%，弹窗提到 86%（暗色 80%），hover 预览卡不再透字；完全权限确认按钮的禁用态提到 80%。
+- **0.14**：浮层透明度审计——菜单 / 弹层回到 94%，弹窗提到 86%（暗色 80%），hover 预览卡不再透字；完全权限确认按钮的禁用态提到 80%；
+- **0.15**：顶栏换成 deepseek + HARNESS 双层蕾丝缎带字标，原来的鲸鱼 + 字标 + 徽章组合与 `harness-banner.webp` 一并移除。
 
 ## 许可与署名
 
