@@ -11,6 +11,8 @@ step, no runtime dependencies, only CSS tokens plus a few DOM decorations.
 - The old whale/wordmark/badge is hidden unconditionally, both by CSS and by an
   inline hide on every sibling, so a hot update can no longer leave both
   lockups on screen.
+- The collapsed icon rail no longer swaps back to the native whale mark; it
+  starts with the new-session glyph instead.
 
 ## 0.15.0
 
