@@ -3,6 +3,15 @@
 All notable changes to this theme. The plugin is intentionally small: no build
 step, no runtime dependencies, only CSS tokens plus a few DOM decorations.
 
+## 0.15.1
+
+- The crest now centers on the new-session button's axis (50% of the logo row)
+  instead of sitting at the brand button's left edge; `新会话` and the crest share
+  one vertical centerline.
+- The old whale/wordmark/badge is hidden unconditionally, both by CSS and by an
+  inline hide on every sibling, so a hot update can no longer leave both
+  lockups on screen.
+
 ## 0.15.0
 
 - The top-left lockup is now one stacked crest: `deepseek` rides the upper lace

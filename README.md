@@ -1,6 +1,6 @@
 # dsh-moe-clean · 鲸鱼娘轻量皮肤
 
-![version](https://img.shields.io/badge/version-0.15.0-2f6bf0?style=flat-square)
+![version](https://img.shields.io/badge/version-0.15.1-2f6bf0?style=flat-square)
 ![platform](https://img.shields.io/badge/DSH-0.2.x-1f2a3a?style=flat-square)
 ![code](https://img.shields.io/badge/code-MIT-2f6bf0?style=flat-square)
 ![artwork](https://img.shields.io/badge/artwork-CC%20BY--NC--SA%204.0-c5a468?style=flat-square)
@@ -11,11 +11,11 @@
 
 | 亮色 · 新会话 | 暗色 · 插件页 |
 | --- | --- |
-| ![亮色](docs/0.15.0/preview-light.png) | ![暗色](docs/0.15.0/preview-dark.png) |
+| ![亮色](docs/0.15.1/preview-light.png) | ![暗色](docs/0.15.1/preview-dark.png) |
 
 | 设置弹窗 | 完全权限警告 |
 | --- | --- |
-| ![设置](docs/0.15.0/settings.png) | ![完全权限警告](docs/0.15.0/permission.png) |
+| ![设置](docs/0.15.1/settings.png) | ![完全权限警告](docs/0.15.1/permission.png) |
 
 ## 为什么是轻量
 
@@ -43,7 +43,7 @@
 
 侧栏字标与图标：
 
-<img src="docs/0.15.0/icons-hd.png" alt="侧栏图标" width="600">
+<img src="docs/0.15.1/icons-hd.png" alt="侧栏图标" width="600">
 
 ## 安装
 
@@ -71,7 +71,7 @@ dsh plugin --profile web add 'github:KurosawaGeeker/dsh-moe-lite'
 git clone https://github.com/KurosawaGeeker/dsh-moe-lite dsh-moe-clean
 dsh plugin --profile desktop add ./dsh-moe-clean
 # 或
-npm pack && dsh plugin --profile desktop add ./dsh-moe-clean-0.15.0.tgz
+npm pack && dsh plugin --profile desktop add ./dsh-moe-clean-0.15.1.tgz
 ```
 
 > 桌面版由应用管理自己的 `desktop` profile，用 `web` profile 的命令不会装到桌面版里。
@@ -124,7 +124,7 @@ dsh-moe-clean/
 │  ├─ maid-right.webp    # 右侧立绘
 │  ├─ whale.svg          # 左下角鲸鱼水印
 │  └─ deepseek-harness-maid-stacked.svg  # 顶栏堆叠字标
-├─ docs/0.15.0/          # README 截图（按版本归档）
+├─ docs/0.15.1/          # README 截图（按版本归档）
 ├─ LICENSE               # MIT（代码）
 ├─ LICENSE-ARTWORK       # CC BY-NC-SA 4.0（美术）
 └─ NOTICE                # 署名链
@@ -146,7 +146,8 @@ dsh-moe-clean/
 - **0.12**：HARNESS 徽章换成手绘蕾丝缎带 + 蓝蝴蝶结；弹窗女仆提亮并往右下角压得更深；
 - **0.13**：弹窗改成 72% 冷白乳白面，斜杠 / 命令面板改成实心，完全权限警告单独换成会指人的 Q 版女仆，输入框底部加 60% 毛玻璃；
 - **0.14**：浮层透明度审计——菜单 / 弹层回到 94%，弹窗提到 86%（暗色 80%），hover 预览卡不再透字；完全权限确认按钮的禁用态提到 80%；
-- **0.15**：顶栏换成 deepseek + HARNESS 双层蕾丝缎带字标，原来的鲸鱼 + 字标 + 徽章组合与 `harness-banner.webp` 一并移除。
+- **0.15**：顶栏换成 deepseek + HARNESS 双层蕾丝缎带字标，原来的鲸鱼 + 字标 + 徽章组合与 `harness-banner.webp` 一并移除；
+- **0.15.1**：字标与「新会话」按钮中轴线对齐，品牌行固定 80px，旧字标连同鲸鱼一起彻底隐藏。
 
 ## 许可与署名
 
