@@ -3,6 +3,14 @@
 All notable changes to this theme. The plugin is intentionally small: no build
 step, no runtime dependencies, only CSS tokens plus a few DOM decorations.
 
+## 0.15.2
+
+- The crest now carries the official DeepSeek whale at its base, centered between
+  the two bows. The viewBox grows from 106 to 125 units so the mark gets its own
+  band below `HARNESS` instead of overlapping the ribbon.
+- The crest image URL carries a version query so a refreshed SVG replaces the
+  cached one without a hard reload.
+
 ## 0.15.1
 
 - The crest now centers on the new-session button's axis (50% of the logo row)
