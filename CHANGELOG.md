@@ -10,6 +10,8 @@ step, no runtime dependencies, only CSS tokens plus a few DOM decorations.
   band below `HARNESS` instead of overlapping the ribbon.
 - The crest image URL carries a version query so a refreshed SVG replaces the
   cached one without a hard reload.
+- Native brand nodes that survive as siblings of the brand button are hidden
+  too, so the old whale cannot sit at the logo row's left edge.
 
 ## 0.15.1
 
