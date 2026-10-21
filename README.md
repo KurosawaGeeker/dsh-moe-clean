@@ -1,6 +1,7 @@
 # dsh-moe-clean · 鲸鱼娘轻量皮肤
 
 ![version](https://img.shields.io/badge/version-0.15.3-2f6bf0?style=flat-square)
+![npm](https://img.shields.io/npm/v/dsh-moe-clean?style=flat-square&color=2f6bf0)
 ![platform](https://img.shields.io/badge/DSH-0.2.x-1f2a3a?style=flat-square)
 ![code](https://img.shields.io/badge/code-MIT-2f6bf0?style=flat-square)
 ![artwork](https://img.shields.io/badge/artwork-CC%20BY--NC--SA%204.0-c5a468?style=flat-square)
@@ -74,11 +75,17 @@ dsh plugin --profile web add 'github:KurosawaGeeker/dsh-moe-lite'
 
 ### npm
 
+已发布到 npm：[`dsh-moe-clean`](https://www.npmjs.com/package/dsh-moe-clean)，当前最新 `0.15.3`。
+
 ```sh
 dsh plugin --profile desktop add dsh-moe-clean
+# 或锁定版本
+dsh plugin --profile desktop add dsh-moe-clean@0.15.3
 # 或
 npm install dsh-moe-clean
 ```
+
+发布新版（维护者）：`npm publish --access public`。账号开启 `auth-and-writes` 二步验证时，需在浏览器里完成一次验证。
 
 ### 本地目录 / tarball
 
