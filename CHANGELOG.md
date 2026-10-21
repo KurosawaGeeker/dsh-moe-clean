@@ -23,6 +23,8 @@ step, no runtime dependencies, only CSS tokens plus a few DOM decorations.
   background art reads sharp instead of a blur; the input card still covers her
   lower body.
 - Both crest instances (sidebar and hero) sit at 80% opacity.
+- The dialog chibi's mask is now a short 135° fade that only covers the top-left
+  corner, so her hand on the wrench and the pointing finger stay readable.
 
 ## 0.15.1
 

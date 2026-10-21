@@ -15,7 +15,7 @@
 
 | 设置弹窗 | 完全权限警告 |
 | --- | --- |
-| ![设置](https://raw.githubusercontent.com/KurosawaGeeker/dsh-moe-lite/main/docs/0.15.2/settings.png) | ![完全权限警告](https://raw.githubusercontent.com/KurosawaGeeker/dsh-moe-lite/main/docs/0.15.2/permission.png) |
+| ![设置](https://raw.githubusercontent.com/KurosawaGeeker/dsh-moe-lite/main/docs/0.15.2/settings-chibi.png) | ![完全权限警告](https://raw.githubusercontent.com/KurosawaGeeker/dsh-moe-lite/main/docs/0.15.2/permission-chibi.png) |
 
 ## 为什么是轻量
 
