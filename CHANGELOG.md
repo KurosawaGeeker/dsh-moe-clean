@@ -13,6 +13,8 @@ step, no runtime dependencies, only CSS tokens plus a few DOM decorations.
 - The over-broad logo-row hide was reverted; the empty-state headline's whale
   hitbox is now hidden on its own, so the title stays and the crest is never
   touched.
+- The empty state now repeats the crest above `探索未至之境`, centered on the
+  title axis; the sidebar crest is unchanged.
 
 ## 0.15.1
 
