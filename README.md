@@ -11,11 +11,11 @@
 
 | 亮色 · 新会话 | 暗色 · 插件页 |
 | --- | --- |
-| ![亮色](docs/0.15.2/preview-light-maid-sharp.png) | ![暗色](docs/0.15.2/preview-dark.png) |
+| ![亮色](https://raw.githubusercontent.com/KurosawaGeeker/dsh-moe-lite/main/docs/0.15.2/preview-light-maid-sharp.png) | ![暗色](https://raw.githubusercontent.com/KurosawaGeeker/dsh-moe-lite/main/docs/0.15.2/preview-dark.png) |
 
 | 设置弹窗 | 完全权限警告 |
 | --- | --- |
-| ![设置](docs/0.15.2/settings.png) | ![完全权限警告](docs/0.15.2/permission.png) |
+| ![设置](https://raw.githubusercontent.com/KurosawaGeeker/dsh-moe-lite/main/docs/0.15.2/settings.png) | ![完全权限警告](https://raw.githubusercontent.com/KurosawaGeeker/dsh-moe-lite/main/docs/0.15.2/permission.png) |
 
 ## 为什么是轻量
 
@@ -43,7 +43,7 @@
 
 侧栏字标与图标：
 
-<img src="docs/0.15.2/icons-hd.png" alt="侧栏图标" width="600">
+<img src="https://raw.githubusercontent.com/KurosawaGeeker/dsh-moe-lite/main/docs/0.15.2/icons-hd.png" alt="侧栏图标" width="600">
 
 ## 安装
 
@@ -64,6 +64,14 @@ dsh plugin --profile web add 'github:KurosawaGeeker/dsh-moe-lite'
 ```
 
 装完重启 `dsh web`，刷新页面。
+
+### npm
+
+```sh
+dsh plugin --profile desktop add dsh-moe-clean
+# 或
+npm install dsh-moe-clean
+```
 
 ### 本地目录 / tarball
 
