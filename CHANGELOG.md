@@ -22,6 +22,7 @@ step, no runtime dependencies, only CSS tokens plus a few DOM decorations.
 - The hero composer seat's frosted pane is disabled on the empty state, so the
   background art reads sharp instead of a blur; the input card still covers her
   lower body.
+- Both crest instances (sidebar and hero) sit at 80% opacity.
 
 ## 0.15.1
 

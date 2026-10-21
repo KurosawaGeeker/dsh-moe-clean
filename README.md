@@ -11,7 +11,7 @@
 
 | 亮色 · 新会话 | 暗色 · 插件页 |
 | --- | --- |
-| ![亮色](https://raw.githubusercontent.com/KurosawaGeeker/dsh-moe-lite/main/docs/0.15.2/preview-light-maid-sharp.png) | ![暗色](https://raw.githubusercontent.com/KurosawaGeeker/dsh-moe-lite/main/docs/0.15.2/preview-dark.png) |
+| ![亮色](https://raw.githubusercontent.com/KurosawaGeeker/dsh-moe-lite/main/docs/0.15.2/preview-light-80.png) | ![暗色](https://raw.githubusercontent.com/KurosawaGeeker/dsh-moe-lite/main/docs/0.15.2/preview-dark.png) |
 
 | 设置弹窗 | 完全权限警告 |
 | --- | --- |
