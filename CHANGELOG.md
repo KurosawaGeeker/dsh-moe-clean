@@ -13,6 +13,11 @@ step, no runtime dependencies, only CSS tokens plus a few DOM decorations.
 - The collapsed icon rail is untouched: its 36px targets and 12px spacing are
   restored explicitly so the compact rules only apply to the expanded
   sidebar.
+- Fixed: the Plugins nav row keeps its whale-tail icon. The stray-whale cleanup
+  classified the theme's own overlay (an `<img>` whose URL contains `whale`) as
+  a leftover mark and hid it once the shorter top stack pushed it above the
+  140px cutoff; theme decorations are now exempt, and the overlay is re-shown on
+  every re-decoration.
 
 ## 0.15.3
 
