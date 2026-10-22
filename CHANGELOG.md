@@ -3,6 +3,17 @@
 All notable changes to this theme. The plugin is intentionally small: no build
 step, no runtime dependencies, only CSS tokens plus a few DOM decorations.
 
+## Unreleased
+
+- The sidebar top stack is tighter so more of the workspace list is visible:
+  the logo row drops from 80px to 56px with the crest scaled from 64px to
+  44px, the new-session button from 38px to 34px (bottom margin 12px to 8px),
+  and the nav rows from 36px to 32px with the row gap halved from 4px to 2px.
+  About 50px is recovered — roughly one extra session row on a 1080p screen.
+- The collapsed icon rail is untouched: its 36px targets and 12px spacing are
+  restored explicitly so the compact rules only apply to the expanded
+  sidebar.
+
 ## 0.15.3
 
 - The settings Plugins page now trades the standing maid for the chibi holding a
