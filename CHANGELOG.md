@@ -18,6 +18,10 @@ step, no runtime dependencies, only CSS tokens plus a few DOM decorations.
   a leftover mark and hid it once the shorter top stack pushed it above the
   140px cutoff; theme decorations are now exempt, and the overlay is re-shown on
   every re-decoration.
+- Fixed: the three nav rows now share one glyph size (20px). The rows are
+  supplied by separate plugins, so two icons were 16px while the nav-icon rule
+  sized the third to 20px, shifting only the Automations label 4px to the
+  right; their labels now line up.
 
 ## 0.15.3
 
